@@ -1,0 +1,57 @@
+p{
+    margin: 0;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 667px;
+    justify-content: space-between;
+}
+.first_second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.first_third{
+    margin-top: 10px;
+}
+.first_third>span{
+    margin-right: 20px;
+}
+.QSPAN{
+    position: relative;
+    background-color: #d5d5d3;
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+}
+.QSPAN::after{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 33px solid #d5d5d3;
+    border-right: 13px solid transparent;
+    position: absolute;
+    right: -13px;
+    top: 0;
+    z-index: 1;
+
+}
+.second_text{
+    font-weight: bold;
+}
+.second_color{
+    color: #888;
+}
+.second_div{
+    margin: 10px 0;
+}
+.third_section {
+    width: 600px;
+}
+.third_section .active{
+    font-weight: bold;
+    border-bottom: 1px solid red;
+}

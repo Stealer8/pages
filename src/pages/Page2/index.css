@@ -1,0 +1,47 @@
+.box2{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.span1,.span2{
+    color:#fff
+}
+.span3{
+    border: 1px solid red;
+    color: red;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 436px;
+    align-items: center;
+}
+.top>p{
+    font-weight: bold;
+    margin: 0;
+}
+.firstNum{
+    color: red;
+    font-size: 30px;
+}
+.secondNum{
+    color: #000;
+    font-size: 20px;
+}
+.thirdNum{
+    color: #888;
+    font-size: 14px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 536px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bottom>div{
+    border-left: 1px dotted #ccc;
+    padding-left: 10px;
+}
+.bottom>div:first-child{
+    border:none
+}
